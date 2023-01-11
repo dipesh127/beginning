@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>HTML regestration form</title>
+</head>
+<body>
+<form>
+
+<fieldset>
+<legend>Personal information</legend>
+<label for="fname">Enter your First name:</label>
+<input type="text" name="fname" id="fname"><br />
+<label for="mname">Enter your Middle name:</label>
+<input type="text" name="mname" id="mname"><br/>
+<label for ="lname" > Enter your Last name:</label>
+<input type="text" name="lname" id="lname"><br/>
+<label for="Gender"> Select your gender:</label>
+<input type="radio" name="gender" id="male">
+<label for ="male">Male</label>
+<input type="radio" name="gender" id="femail">
+<label for="female">Female</label><br />
+
+<label for="dob"> Select your date of birth:</label>
+<input type="date" name="date" id="date"><br/>
+<label for="email" > Enter Your Email</label>
+<input type="email" name="email" id="email"><br/>
+<label for="password" >Enter Your password</label>
+<input type="password" name="pasword" id="password"><br/>
+<label for="documents"> Select Documents which you own</label><br/>
+<input type="checkbox" name="document1" id="document1">
+<label for="document1"> I have Adharcard</label><br />
+<input type="checkbox" name="document2" id="document2">
+<label for="document2"> I have Pancard</label><br />
+<input type="checkbox" name="document3" id="document3">
+<label for="document3"> I have Passport</label><br />
+
+<label for="city" >Select your city:</label>
+<select name="city" id="city">
+<option value="surat">Surat</option>
+<option value="mumbai">Mumbai</option>
+<option value="rajkot"> Rajlkot</option>
+</select><br/>
+<label for="state">Select your state:</label>
+<select name="state" id="state">
+<option value="gujarat">Gujarat</option>
+<option value="maharashtra">Maharastha</option>
+<option value="madhya pradesh">Madhya Pradesh</option>
+</select><br/>
+<label for="address">Write your home address:</label>
+<textarea name="address" cols="10" rows="10"></textarea><br/>
+<button type="button" onclick="alert('check if there is any error')">
+Check Errors</button><br/>
+<label for="education">Select your highest education</label>
+<input list="education">
+<datalist id="education">
+<option vlaue="Ph.D.">
+<option value="Master Degree">
+<option value="Bachlor Degree">
+<option value="12th Pass">
+<option value="10th Pass">
+</datelist>
+
+
+
+<input  type="submit" name="submit" id="submit">
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
